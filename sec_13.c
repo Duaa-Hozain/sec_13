@@ -1,20 +1,14 @@
-void sum (int *a ,int *b)
+void sum (int v ,int b)
 {
 
-int sum = *a+*b ;
+int sum = v+b ;
 printf("sum =%d" , sum);
 }
 
-void sub (int *a ,int *b)
+void sub (int a ,int b)
 {
 
-int sub = *a-*b ;
+int sub = a-b ;
 printf("sub =%d" , sub);
 }
-
-void mult (int *a , int *b )
-           {
-            int mult = *a * *b ;
-printf("mult =%d" , mult);
-           }
 
